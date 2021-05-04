@@ -28,18 +28,23 @@ git submodule update --init --recursive
 
 https://github.com/trufflesuite/ganache-cli#using-ganache-cli
 
-We assume that the node is running at `127.0.0.1:8545`.
+Make sure to set the gas price to 0.
+```
+ganache-cli --gasPrice 0
+```
+
+We assume that the node is listening at `127.0.0.1:8545` for http and websocket.
 
 ### Arbitrum
 
 https://developer.offchainlabs.com/docs/local_blockchain
 
-We assume that the node is running at `127.0.0.1:8548`.
+We assume that the node is listening at `127.0.0.1:8547` for http and at `127.0.0.1:8548` for websocket.
 
 ### Optimism
 https://community.optimism.io/docs/developers/integration.html#step-2-testing-contracts
 
-We assume that the node is running at `127.0.0.1:8546`.
+We assume that the node is listening at `127.0.0.1:8545` for http and at `127.0.0.1:8546` for websocket.
 
 ## Deploy the contracts
 ```sh
