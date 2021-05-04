@@ -6,4 +6,4 @@
 	url = git@github.com:perun-network/go-perun.git
 [submodule "perun-eth-contracts"]
 	path = perun-eth-contracts
-	url = git@github.com:perun-network/perun-eth-contracts.git
+	url = https://github.com/perun-network/perun-eth-contracts.git
