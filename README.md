@@ -52,10 +52,14 @@ cd perun-eth-contracts
 yarn
 yarn run hardhat run scripts/deploy.js --network <network>
 ```
-Substitute `<network>` with `ganache`, `arbitrum_local`, or `optimism_local`.
+Replace `<network>` with `ganache`, `arbitrum_local`, or `optimism_local`. \
+Now you should see the addresses of the deployed contracts in your console as 
+well as in the `deployed-contracts.json` file.
 
 ## Configure the clients
-Put the printed contracts into `perun-eth-demo/network.yaml`.
+You can either set the contract addresses manually in the `perun-eth-demo/network.yaml`
+file or set them as `$contract_name` so that it will use the addresses written
+into the JSON file that has been created in the previous step.
 
 ## Start the clients
 
