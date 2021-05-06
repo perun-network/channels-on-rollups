@@ -1,9 +1,9 @@
 [submodule "perun-eth-demo"]
 	path = perun-eth-demo
-	url = git@github.com:perun-network/perun-eth-demo.git
+	url = https://github.com/perun-network/perun-eth-demo.git
 [submodule "go-perun"]
 	path = go-perun
-	url = git@github.com:perun-network/go-perun.git
+	url = https://github.com/perun-network/go-perun.git
 [submodule "perun-eth-contracts"]
 	path = perun-eth-contracts
 	url = https://github.com/perun-network/perun-eth-contracts.git
