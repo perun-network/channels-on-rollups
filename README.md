@@ -58,8 +58,9 @@ well as in the `deployed-contracts.json` file.
 
 ## Configure the clients
 You can either set the contract addresses manually in the `perun-eth-demo/network.yaml`
-file or set them as `$contract_name` so that it will use the addresses written
-into the JSON file that has been created in the previous step.
+file or let the demo fetch them from the JSON file that has been created in the 
+previous step using the `--contracts "../perun-eth-contracts/deployed-contracts.json` 
+flag when starting the clients.
 
 ## Start the clients
 
@@ -72,14 +73,14 @@ Substitute `<network>` with `arbitrum_local` or `optimism_local`.
 
 ## Have fun 😄  
    
-Once both CLIs are running, e.g. in Alice's terminal, propose a payment channel
+Once both CLIs are running, e.g., in Alice's terminal, propose a payment channel
 to Bob with 10 *PerunToken* deposit from both sides via the following command.
 ```
 > open bob peruntoken 10 10
 ```
-In Alice's terminal, accept the appearing channel proposal.
+In Bob's terminal, accept the appearing channel proposal.
 ```
-🔁 Incoming channel proposal from bob with peruntoken funding [My: 10, Peer: 10].
+🔁 Incoming channel proposal from alice with funding [My: 10 PRN, Peer: 10 PRN].
 Accept (y/n)? > y
 ```
 The terminal will print the hashes of two transaction: *IncreaseAllowance* and *Deposit*.
