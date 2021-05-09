@@ -1,8 +1,16 @@
+<h1 align="center"><br>
+    <a href="https://perun.network/"><img src=".assets/proll.png" alt="Perun" width="196"></a>
+<br></h1>
+
+<h4 align="center">PRoll: Perun channels on Rollups 🎢<br>
+<i>Towards fast, cheap, and versatile transactions on and across rollups.</i></h4>
+</p>
+
 # Intro
 
-This repository is our submission to **Scaling Ethereum 2021**.
+This repository is our submission to **Scaling Ethereum 2021**.  
 
-Our team consists of developers of the state channel library *go-perun*. Our goal was to experiment with rollup technology and to see if we can make our library work with them and how much gas we can save. We focus on the EVM-compatible rollups Arbitrum and Optimism.
+Our team consists of developers of the state channel library [*go-perun*](https://github.com/hyperledger-labs/go-perun) from [*PolyCrypt*](https://polycry.pt). Our goal was to experiment with rollup technology and to see if we can make our library work with them and how much gas we can save. We focus on the EVM-compatible rollups Arbitrum and Optimism.
 
 Our submission consists of the following components:
 
@@ -146,3 +154,13 @@ and *bob*:
 ```
 
 Now you can exit the CLI with command `exit` or `Ctrl+D`.
+
+
+## Contact
+
+You can get in touch with the hackers directly:
+- Matthias Geihs [mail](mailto:matthias@perun.network), [github](https://github.com/matthiasgeihs)
+- Philipp-Florens Lehwalder [mail](mailto:philipp@perun.network), [github](https://github.com/cryptphil)
+- Oliver Tale-Yazdi [mail](mailto:oliver@perun.network), [github](https://github.com/ggwpez)
+
+or for business inquiries please contact us at [info@perun.network](mailto:info@perun.network) or on [perun.network](https://perun.network).
