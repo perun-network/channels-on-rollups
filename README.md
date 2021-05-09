@@ -66,18 +66,18 @@ Otherwise you will get an error about an "unknown asset".
 Start two hubs in `perun-eth-demo` with:
 ```sh
 go run . demo --config hub1.yaml --contracts ../perun-eth-contracts/<network>_contracts.json --chain <network>
-go run . demo --config hub2.yaml --contracts ../perun-eth-contracts/<network>_contracts.json --chain <cnetworkhain>
+go run . demo --config hub2.yaml --contracts ../perun-eth-contracts/<network>_contracts.json --chain <network>
 ```
-Substitute `<network>` with `arbitrum_local` or `optimism_local`.
+Replace `<network>` with `arbitrum_local` or `optimism_local`.
 
 ## Start the Clients
 
 Start two clients in `perun-eth-demo` with:
 ```sh
-go run . demo --config alice.yaml --contracts ./perun-eth-contracts/<network>_contracts.json --chain <network>
-go run . demo --config bob.yaml --contracts ./perun-eth-contracts/<network>_contracts.json --chain <network>
+go run . demo --config alice.yaml --contracts ../perun-eth-contracts/<network>_contracts.json --chain <network>
+go run . demo --config bob.yaml --contracts ../perun-eth-contracts/<network>_contracts.json --chain <network>
 ```
-Substitute `<network>` with `arbitrum_local` or `optimism_local`.
+Replace `<network>` with `arbitrum_local` or `optimism_local`.
 
 You should now have 4 CLI windows running;  
 - Hub1 (Optimism)
